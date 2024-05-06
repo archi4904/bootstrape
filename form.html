@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <h2 class="py-3 text-center">Bootstrap form classes</h2>
+        <div class="row py-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                <label for="">NAME</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">PASSWORD</label>
+                <input type="password" class="form-control">
+                <small class="form-text text-muted">Your password must be 8-20 characters long</small>
+            </div>
+            <div class="form-group">
+                <label for="">COUNTRY</label>
+                <select name="" id="" class="form-control">
+                    <option value="">INDIA</option>
+                    <option value="">BANGLADESH</option>
+                    <option value="">CHINA</option>
+                    <option value="">USA</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">MESSAGE</label>
+                <textarea name="" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="">EMAIL</label>
+                <input type="email" value="abc@gmail.com" class="form-control-plaintext" readonly>
+            </div>
+        </div>
+        <div class="coll-md-6">
+            <div class="form-group">
+                <label for="">FILE UPLOAD</label>
+                <input type="file" class="form-control-file">
+            </div>
+            <div class="form-group">
+                <label for="">AMOUNT</label>
+                <input type="range" class="form-control-range">
+            </div>
+            <div class="form-group">
+                <label for="">HOBBIES</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="musicCheck">
+                    <label for="musicCheck" class="form-check-label">MUSIC</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="sportsCheck">
+                    <label for="sportsCheck" class="form-check-label">SPORTS</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="bookCheck" disabled>
+                    <label for="bookCheck" class="form-check-label">BOOK</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">GENDER</label>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="gender" id="maleradio">
+                    <label for="maleradio" class="form-check-label">MALE</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="gender" id="femaleradio">
+                    <label for="femaleradio" class="form-check-label">FEMALE</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
